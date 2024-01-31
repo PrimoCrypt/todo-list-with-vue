@@ -93,6 +93,7 @@ h1{
     padding: 5px 20px;
     width: 10rem;
     margin-bottom: 20px;
+    height: 30px;
 }
 .todo{
   cursor: pointer;
