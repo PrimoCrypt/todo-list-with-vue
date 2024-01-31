@@ -90,8 +90,8 @@ h1{
     font-weight: 700;
     padding: 0px 20px;
     width: 10rem;
-    height: 35px;
-    border: none;
+    height: 36px;
+    margin-left: 5px;
 }
 .todo{
   cursor: pointer;
