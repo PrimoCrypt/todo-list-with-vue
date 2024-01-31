@@ -126,12 +126,11 @@ button{
 }
 
 .eachTodo button{
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 15px;
     border: 1px;
     color: white;
-    font-size: 1.1rem;
-    min-width: 10rem;
+    max-width: 10rem;
 }
 
 h4{
@@ -140,4 +139,5 @@ h4{
     font-size: 20px;
     text-align: left;
 }
+
 </style>
