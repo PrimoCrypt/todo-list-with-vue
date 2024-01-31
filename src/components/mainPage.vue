@@ -15,7 +15,7 @@
         <div class="eachTodo">
             <div class="mainTodo">
                 <input type="checkbox" v-model="todo.isChecked"/>
-                <h4 class="todo" :class="{ todoChecked: todo.isChecked}">{{ todo.content }}</h4>
+                <p class="todo" :class="{ todoChecked: todo.isChecked}">{{ todo.content }}</p>
             </div>
             <button @click="removeTodo(index)">remove</button>
         </div>
@@ -83,6 +83,7 @@ h1{
     color: rgb(0, 0, 133);
     border-radius: 15px;
     width: 75%;
+    padding-left: 10px;
 }
 .todoForm button{
     border-radius: 15px;
