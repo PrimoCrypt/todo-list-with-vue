@@ -85,15 +85,13 @@ h1{
     width: 75%;
 }
 .todoForm button{
-    margin-top: 10px;
     border-radius: 15px;
     color: white;
-    font-size: 1.1rem;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 0px 20px;
     width: 10rem;
-    margin-bottom: 20px;
-    height: 30px;
+    height: 35px;
+    border: none;
 }
 .todo{
   cursor: pointer;
